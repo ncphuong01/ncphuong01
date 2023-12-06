@@ -158,7 +158,7 @@ public class SignUpActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SQLite sql = new SQLite(this);
+     ********   SQLite sql = new SQLite(this);
         setContentView(R.layout.activity_sign_up);
 
         SU_buttonback = findViewById(R.id.SU_buttonback);
